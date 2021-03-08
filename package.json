@@ -1,5 +1,5 @@
 {
-  "name": "LL Visualizer",
+  "name": "ll-visualizer",
   "version": "1.0.0",
   "description": "A linked list visualizer to help computer science/software engineering students better grasp the data structure.",
   "main": "index.js",
