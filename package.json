@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "build": "webpack -w",
-    "test": "jest"
+    "test": "jest -u"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "path": "^0.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
     "webpack": "^5.24.3",
     "webpack-cli": "^4.5.0"
   },
