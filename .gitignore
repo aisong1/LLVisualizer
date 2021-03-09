@@ -1,6 +1,8 @@
 node_modules
 public/bundle.js
+
+# Test
 __test__/__snapshots__
-cypress/screenshotsFolder
-cypress/videosFolder
-cypress/integration/examples
+cypress/videos
+cypress/screenshots
+coverage
