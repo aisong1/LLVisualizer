@@ -1,3 +1,8 @@
 node_modules
 public/bundle.js
+
+# Test
 __test__/__snapshots__
+cypress/videos
+cypress/screenshots
+coverage
