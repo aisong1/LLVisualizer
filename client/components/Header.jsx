@@ -7,19 +7,15 @@ const Button = styled.button`
   margin-right: 20%;
   cursor: pointer;
   border: 1px solid #1f1f1f;
-
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
 `;
 
 const Github = styled.img`
-  width: 100%;
+  width: 50%;
+  height: auto;
 `;
 
 const Heading = styled.h1`
-  font-size: 32pt;
+  font-size: 20pt;
   padding-left: 20%;
 `;
 
