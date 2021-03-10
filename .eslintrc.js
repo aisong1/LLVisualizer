@@ -18,6 +18,8 @@ module.exports = {
   },
   plugins: [
     'react',
+    'testing-library',
+    'jest-dom',
   ],
   rules: {
     'no-console': 'off',
