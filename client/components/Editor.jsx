@@ -1,9 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const EditorWrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 const Editor = () => (
-  <div>
+  <EditorWrapper>
     CODE EDITOR GOES HERE
-  </div>
+  </EditorWrapper>
 );
 
 export default Editor;
