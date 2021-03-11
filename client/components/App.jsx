@@ -1,6 +1,6 @@
 import React from 'react';
+import { createGlobalStyle } from 'styled-components';
 import Header from './Header';
-import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {

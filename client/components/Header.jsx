@@ -31,19 +31,20 @@ const openInNewTab = (url) => {
   if (newWindow) {
     newWindow.opener = null;
   }
-}
-
-const Header = () => {
-  return (
-    <Wrapper className="Header">
-      <Heading>LL Visualizer</Heading>
-      <Button aria-label="GitHub" onClick={() => {
-        openInNewTab('https://www.github.com/aisong1/LLVisualizer');
-      }}>
-        <Github src="../img/GitHub-Mark-Light-64px.png" />
-      </Button>
-    </Wrapper>
-  )
 };
+
+const Header = () => (
+  <Wrapper className="Header">
+    <Heading>LL Visualizer</Heading>
+    <Button
+      aria-label="GitHub"
+      onClick={() => {
+        openInNewTab('https://www.github.com/aisong1/LLVisualizer');
+      }}
+    >
+      <Github src="../img/GitHub-Mark-Light-64px.png" />
+    </Button>
+  </Wrapper>
+);
 
 export default Header;
