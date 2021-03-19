@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/aisong1/LLVisualizer#readme",
   "dependencies": {
+    "codemirror": "^5.59.4",
     "cypress": "^6.6.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
