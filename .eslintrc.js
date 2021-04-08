@@ -24,10 +24,4 @@ module.exports = {
     'no-console': 'off',
     'max-len': 'off',
   },
-  overrides: [
-    {
-      files: ['**/*.test.js'],
-      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
-    },
-  ],
 };

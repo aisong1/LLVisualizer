@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/aisong1/LLVisualizer#readme",
   "dependencies": {
+    "@monaco-editor/react": "^4.1.0",
     "cypress": "^6.6.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",

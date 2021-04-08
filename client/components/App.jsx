@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import Header from './Header';
-import Editor from './Editor';
+import CodeEditor from './CodeEditor';
 import Visualizer from './Visualizer';
 
 const GlobalStyle = createGlobalStyle`
@@ -30,7 +30,7 @@ const App = () => (
     <Header />
     <ContentBody>
       <ContentItem>
-        <Editor />
+        <CodeEditor />
       </ContentItem>
       <ContentItem>
         <Visualizer />
