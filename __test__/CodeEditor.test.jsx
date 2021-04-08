@@ -5,6 +5,8 @@ import CodeEditor from '../client/components/CodeEditor';
 describe('CodeEditor.jsx', () => {
   test('should render', () => {
     render(<CodeEditor />);
-    screen.getByText('CODE EDITOR GOES HERE');
+
+    // TODO: Test a component that is being rendered asnyc
+    // screen.getByLabelText('code');
   });
 });
