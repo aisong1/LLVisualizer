@@ -16,6 +16,9 @@ const CodeEditor = () => {
   return (
     <CodeEditorWrapper>
       <Editor
+        name="code"
+        aria-label="code"
+        label="code"
         height="100vh"
         theme="vs-dark"
         defaultLanguage="javascript"
